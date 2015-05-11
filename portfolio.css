@@ -1,0 +1,144 @@
+body{
+	background-color: RGB(51, 49, 50);
+	font-family:'Roboto';
+}
+
+h1{
+	color: white;
+	font-size: 0.9em;
+	margin-bottom: 0.6em;
+	margin-top: 0.6em;
+	font-weight: lighter;
+}
+
+.wood{
+	background-image: url('img/wood_background_opacity.jpg');
+	height: 32em;
+}
+
+img{
+	margin-top: 3em;
+	margin-left: 5em;
+}
+
+h2{
+	float: right;
+	font-size: 5em;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+	margin-top: 2em;
+	margin-right: 3em;
+}
+
+h3{
+	float: right;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	margin-top: 14.5em;
+	margin-left: 2em;
+}
+
+h4{
+	float:right;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+	margin-top: -13.5em;
+	margin-right: 20em;
+}
+
+h5{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.box1, .box2, .box3, .box4{
+	width: 380px;
+	height: 200px;
+	border: 1px solid white;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 5em;
+}
+
+.box1{
+	margin-left: 1em;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img{
+	margin-left: 148px;
+	margin-bottom: 1em;
+	display:block;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+	background-color: RGB(0, 167, 157);
+}
+
+.about{
+	margin-top:10em;
+}
+
+.kader{
+	background-color: RGB(188, 190, 192);
+	height: 32em;
+}
+
+.naamkaart{
+	margin-left: 10em;
+}
+
+a{
+	text-decoration: none;
+}
+
+.work1, .work2, .work3{
+	float:left;
+	padding:2em;
+	border: 1px solid white;
+	width: 300px;
+	height: 120px;
+	background-color: black;
+	margin-top: 3em;
+	margin-left: 6.5em;
+}
+
+.work4, .work5, .work6{
+	float: left;
+	padding: 2em;
+	border: 1px solid white;
+	width: 300px;
+	height: 120px;
+	background-color: black;
+	margin-top: 4em;
+	margin-left: 6.5em;
+}
+
+p{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+button{
+	background-color: black;
+	color: white;
+	width: 35px;
+	height: 35px;
+	border-radius: 60%;
+	font-weight: bolder;
+}
+
+.back{
+	float: left;
+	margin-top: 18em;
+}
+
+.forward{
+	float: right;
+}
